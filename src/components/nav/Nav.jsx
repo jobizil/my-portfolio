@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./nav.css";
 
@@ -26,9 +27,9 @@ const Nav = () => {
 				<BiBook />
 			</a>
 			<a
-				href="#services"
-				onClick={() => setActiveNav("#services")}
-				className={activeNav === "#services" ? "active" : ""}>
+				href="#portfolio"
+				onClick={() => setActiveNav("#portfolio")}
+				className={activeNav === "#portfolio" ? "active" : ""}>
 				<RiServiceLine />
 			</a>
 			<a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>

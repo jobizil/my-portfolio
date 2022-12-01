@@ -10,91 +10,53 @@ const Services = () => {
 			<div className="container services__container">
 				<article className="service">
 					<div className="service__head">
-						<h3>UI/UX Design</h3>
+						<h3>Website Design and Development</h3>
 					</div>
 					<ul className="service__list">
 						<li>
 							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
+							<p>
+								I develop and build high-end user friendly websites that provides optimum business requirements and are
+								adaptive to various device.
+							</p>
 						</li>
 						<li>
 							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-					</ul>
-				</article>
-				{/* END OF UI/UX */}
-				<article className="service">
-					<div className="service__head">
-						<h3>Web Design and Development</h3>
-					</div>
-					<ul className="service__list">
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
+							<p>I Create reusable libraries and code for later use.</p>
 						</li>
 					</ul>
 				</article>
 				{/* END OF Web Design and Development */}
 				<article className="service">
 					<div className="service__head">
-						<h3>Content Creation</h3>
+						<h3>Website Maintenance &amp; Management</h3>
 					</div>
 					<ul className="service__list">
 						<li>
 							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
+							<p>
+								I help perform routine and scheduled maintenance on existing websites to help super-charge its web
+								servers.
+							</p>
 						</li>
 						<li>
 							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
+							<p>I also help provide enhanced optimization for better user interaction and experience.</p>
 						</li>
+					</ul>
+				</article>
+				{/* END OF Website Management*/}
+				<article className="service">
+					<div className="service__head">
+						<h3>Consultancy Services </h3>
+					</div>
+					<ul className="service__list">
 						<li>
 							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
-						</li>
-
-						<li>
-							<GiCheckMark className="service__list-icon" />
-							<p>Lorem ipsum dolor sit amet.</p>
+							<p>
+								I provide enterprise grade consultancy that involves creating, maintaining and improving websites, web
+								applications etc.
+							</p>
 						</li>
 					</ul>
 				</article>

@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.css";
-import ABOUTME from "../../assets/me-about.jpg";
 import { RiAwardLine } from "react-icons/ri";
 import { RiUserStarLine } from "react-icons/ri";
 import { FiCheckCircle } from "react-icons/fi";
@@ -14,7 +13,10 @@ const About = () => {
 			<div className="container about__container">
 				<div className="about__me">
 					<div className="about__me-image">
-						<img src={ABOUTME} alt="about-me" />
+						<img
+							src="https://res.cloudinary.com/jobizil/image/upload/v1669898591/portfolio-imgs/photostudio-2-designify_jbfnhz.png"
+							alt="about-me"
+						/>
 					</div>
 				</div>
 
@@ -28,7 +30,7 @@ const About = () => {
 						<article className="about__card">
 							<RiUserStarLine className="about__icon" />
 							<h5>Clients</h5>
-							<small>20+ Clients</small>
+							<small>15+ Clients</small>
 						</article>
 						<article className="about__card">
 							<FiCheckCircle className="about__icon" />
