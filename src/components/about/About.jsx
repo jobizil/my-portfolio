@@ -42,7 +42,7 @@ const About = () => {
 						team player, I'm really dedicated to grasping knowledge and also working within project specifications to
 						deliver cost-effective timely results.
 					</p>
-					<a href="#contact" className="btn btn--primary">
+					<a href="#contact" className="btn btn-primary">
 						Let's Talk
 					</a>
 				</div>

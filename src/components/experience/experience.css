@@ -40,4 +40,31 @@
 	color: var (--color-primary);
 }
 
-/* Continue from 1:50:11 Exprience Component CSS */
+/* ============ MEDIA QUERIES (MEDIUM DEVICES) ============= */
+@media screen and (max-width: 1024px) {
+	.exprience__container {
+		grid-template-columns: 1fr;
+	}
+
+	.exprience__container > div {
+		width: 80%;
+		padding: 2rem;
+		margin: 0 auto;
+	}
+
+	.exprience__content {
+		padding: 1rem;
+	}
+}
+
+/* ============ MEDIA QUERIES (SMALL DEVICES) ============= */
+@media screen and (max-width: 600px) {
+	.exprience__container {
+		gap: 1rem;
+	}
+
+	.exprience__container > div {
+		width: 100%;
+		padding: 2rem 1rem;
+	}
+}
