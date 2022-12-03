@@ -31,6 +31,7 @@
 
 .about__card {
 	background: var(--color-bg-variant);
+	/* background: var(--color-primary); */
 	border: 1px solid transparent;
 	border-radius: 1rem;
 	padding: 2rem;
@@ -46,6 +47,7 @@
 
 .about__icon {
 	color: var(--color-primary);
+	/* color: var(--color-bg-variant); */
 	font-size: 1.4rem;
 	margin-bottom: 1rem;
 }
@@ -57,11 +59,13 @@
 .about__card small {
 	font-size: 0.7rem;
 	color: var(--color-light);
+	/* color: var(--color-bg-variant); */
 }
 
 .about__content p {
 	margin: 2rem 0 2.6rem;
 	color: var(--color-light);
+	user-select: none;
 }
 
 /* ============ MEDIA QUERIES (MEDIUM DEVICES) ============= */

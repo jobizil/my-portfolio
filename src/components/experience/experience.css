@@ -6,6 +6,7 @@
 
 .exprience__container > div {
 	background: var(--color-bg-variant);
+	/* background: var(--color-primary); */
 	padding: 2.4rem 5rem;
 	border-radius: 2rem;
 	border: 1px solid transparent;
@@ -22,6 +23,7 @@
 	text-align: center;
 	margin-bottom: 2rem;
 	color: var(--color-primary);
+	/* color: var(--color-bg-variant); */
 }
 
 .exprience__content {
@@ -35,8 +37,12 @@
 	gap: 1rem;
 }
 
+/* .exprience__details .text-light {
+	color: var(--color-bg-variant);
+} */
 .exprience__details-icon {
 	margin-top: 6px;
+	/* color: var(--color-bg-variant); */
 	color: var (--color-primary);
 }
 

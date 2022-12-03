@@ -5,7 +5,7 @@ import "./nav.css";
 import { CgHomeAlt } from "react-icons/cg";
 import { RiUserLine } from "react-icons/ri";
 import { BiBook } from "react-icons/bi";
-import { RiServiceLine } from "react-icons/ri";
+// import { RiServiceLine } from "react-icons/ri";
 import { SiMinutemailer } from "react-icons/si";
 
 import { useState } from "react";
@@ -26,12 +26,12 @@ const Nav = () => {
 				className={activeNav === "#experience" ? "active" : ""}>
 				<BiBook />
 			</a>
-			<a
+			{/* <a
 				href="#portfolio"
 				onClick={() => setActiveNav("#portfolio")}
 				className={activeNav === "#portfolio" ? "active" : ""}>
 				<RiServiceLine />
-			</a>
+			</a> */}
 			<a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}>
 				<SiMinutemailer />
 			</a>

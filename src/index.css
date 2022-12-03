@@ -28,9 +28,10 @@
 
 :root {
 	--color-bg: #371722;
-	--color-bg-variant: #e5553c;
+	--color-bg-variant: #d15c48;
 	--color-primary: #bbab9b;
-	--color-primary-variant: rgba(139, 71, 29, 0.4);
+	/* --color-primary-variant: rgba(139, 71, 29, 0.4); */
+	--color-primary-variant: #d15c48;
 	--color-white: #fff;
 	--color-light: #bbab9b;
 
@@ -89,6 +90,7 @@ section > h2 {
 	color: var(--color-light);
 }
 a {
+	/* color: var(--color-bg-variant); */
 	color: var(--color-primary);
 	transition: var(--transition);
 }
