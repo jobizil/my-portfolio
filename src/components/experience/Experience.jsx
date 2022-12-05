@@ -54,8 +54,25 @@ const pentestTools = [
 		description: "Used for scripting and automation",
 	},
 	{
-		tool: "Linux",
-		description: "All my pentesting activites and tools are on Kali Linux",
+		tool: "ProxyFoxy",
+		description: "Used for proxying and intercepting traffic",
+	},
+	{
+		tool: "Insomnia",
+		description: "Used for API development and testing",
+	},
+	{
+		tool: "Notion",
+		description: "Used for note taking and documentation",
+	},
+
+	{
+		tool: "Github & Git",
+		description: "Used for version control and collaboration",
+	},
+	{
+		tool: "Kali Linux",
+		description: "Used for pentesting and security research",
 	},
 ];
 const Experience = () => {
