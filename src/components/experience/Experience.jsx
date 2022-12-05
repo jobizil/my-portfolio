@@ -1,6 +1,63 @@
 import React from "react";
 import "./experience.css";
 import { IoCheckmarkDoneCircle } from "react-icons/io5";
+
+const webDevTools = [
+	{
+		tool: "JavaScript",
+		description: "Interpreted programming language with multi-paradigm.",
+	},
+	{
+		tool: "TypeScript",
+		description: "A superset of JavaScript",
+	},
+	{
+		tool: "Node.js",
+		description: "Used to build backend applications",
+	},
+	{
+		tool: "Strapi CMS",
+		description: " Headless CMS for building customisable APIs",
+	},
+	{
+		tool: "MongoDB",
+		description: "A typical non-relational database",
+	},
+	{
+		tool: "Postgres",
+		description: "A type of relational database",
+	},
+	{
+		tool: "Redis",
+		description: "Used for caching and session management",
+	},
+	{
+		tool: "Postman",
+		description: "Used for API development and testing",
+	},
+	{
+		tool: "Github",
+		description: "Used for version control and collaboration",
+	},
+];
+const pentestTools = [
+	{
+		tool: "Burp Suite",
+		description: "Used for web application security testing",
+	},
+	{
+		tool: "Nmap",
+		description: "Used to scan for open ports and services",
+	},
+	{
+		tool: "Python",
+		description: "Used for scripting and automation",
+	},
+	{
+		tool: "Linux",
+		description: "All my pentesting activites and tools are on Kali Linux",
+	},
+];
 const Experience = () => {
 	return (
 		<section id="experience">
@@ -10,139 +67,38 @@ const Experience = () => {
 				<div className="exprience__backend">
 					<h3>Backend Web Development</h3>
 					<div className="exprience__content">
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>JavaScript</h4>
-								<small className="text-light">Interpreted programming language with multi-paradigm.</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>TypeScript</h4>
-								<small className="text-light">A superset of JavaScript</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Node.js</h4>
-								<small className="text-light">Used to build backend applications</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Strapi CMS</h4>
-								<small className="text-light">Built an headless CMS for a client's portfolio</small>
-							</div>
-						</article>
-
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>MongoDB</h4>
-								<small className="text-light">A typical non-relational database</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Postgres</h4>
-								<small className="text-light">A type of relational database</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Redis</h4>
-								<small className="text-light">Used for caching and session management</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Postman</h4>
-								<small className="text-light">Used for API development and testing</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Github</h4>
-								<small className="text-light">Used for version control and collaboration</small>
-							</div>
-						</article>
+						{webDevTools.map(({ tool, description }, index) => {
+							return (
+								<article key={index} className="exprience__details">
+									<div className="experience_details-icon-container">
+										<IoCheckmarkDoneCircle className="experience_details-icon" />
+									</div>
+									<div className="experience_details-text-container">
+										<h4>{tool}</h4>
+										<small className="text-light">{description}</small>
+									</div>
+								</article>
+							);
+						})}
 					</div>
 				</div>
 				{/* END OF BACKEND DEVELOPMENT */}
 				<div className="exprience__frontend">
 					<h3>Pentesting</h3>
 					<div className="exprience__content">
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>BurpSuite</h4>
-								<small className="text-light">Used for web application pentesting</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Nmap</h4>
-								<small className="text-light">Used to scan for open ports and services</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Python</h4>
-								<small className="text-light">Used for scripting and automation</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Zenmap</h4>
-								<small className="text-light">Used to scan for open ports and vulnerabilities</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Linux</h4>
-								<small className="text-light">All my pentesting activites and tools are on Kali Linux</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Insomnia</h4>
-								<small className="text-light">Used to test API's and endpoints</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>ProxyFoxy</h4>
-								<small className="text-light">Used to create proxy server</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Postman</h4>
-								<small className="text-light">Used for API testing</small>
-							</div>
-						</article>
-						<article className="exprience__details">
-							<IoCheckmarkDoneCircle className="exprience__details-icon" />
-							<div>
-								<h4>Notion</h4>
-								<small className="text-light">Used for note taking</small>
-							</div>
-						</article>
+						{pentestTools.map(({ tool, description }, index) => {
+							return (
+								<article key={index} className="exprience__details">
+									<div className="experience_details-icon-container">
+										<IoCheckmarkDoneCircle className="experience_details-icon" />
+									</div>
+									<div>
+										<h4>{tool}</h4>
+										<small className="text-light">{description}</small>
+									</div>
+								</article>
+							);
+						})}
 					</div>
 				</div>
 			</div>

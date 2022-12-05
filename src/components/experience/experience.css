@@ -40,8 +40,16 @@
 /* .exprience__details .text-light {
 	color: var(--color-bg-variant);
 } */
+.experience_details-icon-container {
+	/* background-color: #029; */
+	width: 15%;
+}
+.experience_details-text-container {
+	width: 85%;
+}
 .exprience__details-icon {
 	margin-top: 6px;
+	/* width: 2rem; */
 	/* color: var(--color-bg-variant); */
 	color: var (--color-primary);
 }
