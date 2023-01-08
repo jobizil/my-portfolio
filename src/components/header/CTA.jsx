@@ -6,7 +6,7 @@ const CTA = () => {
 		<div className="cta">
 			<a
 				className="btn"
-				href="https://www.dropbox.com/s/rwp4b9rx2797cfm/Job-Ugbem-Resume.pdf?dl=0"
+				href="https://www.dropbox.com/s/y3pmc7oj8nvszyq/Ugbem-Job-cv.pdf?dl=0"
 				target="_blank"
 				rel="noopener noreferrer">
 				Preview CV
