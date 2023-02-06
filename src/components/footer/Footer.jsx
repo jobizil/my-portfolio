@@ -4,6 +4,7 @@ import "./footer.css";
 import { GrFacebook } from "react-icons/gr";
 import { FaInstagram } from "react-icons/fa";
 import { BsTwitter } from "react-icons/bs";
+import {TbBrandLinkedin} from "react-icons/tb"
 const Footer = () => {
 	return (
 		<footer id="footer">
@@ -36,8 +37,8 @@ const Footer = () => {
 			</ul>
 
 			<div className="footer__socials">
-				<a href="https://www.facebook.com/jobizil" target="_blank" rel="noreferrer">
-					<GrFacebook />
+				<a href="https://www.linkedin.com/in/job-ugbem" target="_blank" rel="noreferrer">
+					<TbBrandLinkedin />
 				</a>
 				<a href="https://www.twitter.com/jobizil" target="_blank" rel="noreferrer">
 					<BsTwitter />
